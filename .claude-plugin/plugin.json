@@ -1,0 +1,12 @@
+{
+  "name": "plan-advisor",
+  "version": "0.1.0",
+  "description": "Analyzes Claude Code plans and advises whether to clear context or preserve it before execution",
+  "author": {
+    "name": "Brooks McMillin",
+    "url": "https://github.com/brooksmcmillin"
+  },
+  "repository": "https://github.com/brooksmcmillin/claude-code-plan-advisor",
+  "license": "MIT",
+  "keywords": ["plans", "context", "workflow", "hooks"]
+}

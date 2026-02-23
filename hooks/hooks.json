@@ -1,0 +1,17 @@
+{
+  "description": "Analyze plans after they're written and advise on context clearing",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/scripts/analyze-plan.sh",
+            "timeout": 45
+          }
+        ]
+      }
+    ]
+  }
+}
