@@ -9,7 +9,10 @@
       "description": "Analyzes Claude Code plans and advises whether to clear context or preserve it before execution",
       "version": "0.1.0",
       "license": "MIT",
-      "source": "."
+      "source": {
+        "source": "github",
+        "repo": "brooksmcmillin/plan-advisor"
+      }
     }
   ]
 }
