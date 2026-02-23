@@ -26,14 +26,25 @@ If the `claude` CLI isn't available or fails, it falls back to a simple heuristi
 
 ## Installation
 
+In Claude Code, run:
+
+```
+/plugin marketplace add brooksmcmillin/plan-advisor
+/plugin install plan-advisor@brooksmcmillin-plan-advisor
+```
+
+### Manual installation
+
+If you prefer not to use the plugin system, clone the repo and add the hook to your settings directly.
+
 Clone the repo:
 
 ```bash
-git clone https://github.com/brooksmcmillin/claude-code-plan-advisor.git \
+git clone https://github.com/brooksmcmillin/plan-advisor.git \
   ~/.claude/plugins/plan-advisor
 ```
 
-Then add the hook to your Claude Code settings. In `~/.claude/settings.json` (global) or `.claude/settings.json` (per-project):
+Then add the hook to `~/.claude/settings.json` (global) or `.claude/settings.json` (per-project):
 
 ```json
 {

@@ -6,7 +6,7 @@
     "name": "Brooks McMillin",
     "url": "https://github.com/brooksmcmillin"
   },
-  "repository": "https://github.com/brooksmcmillin/claude-code-plan-advisor",
+  "repository": "https://github.com/brooksmcmillin/plan-advisor",
   "license": "MIT",
   "keywords": ["plans", "context", "workflow", "hooks"]
 }
