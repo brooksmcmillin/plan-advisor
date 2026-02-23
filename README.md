@@ -110,6 +110,12 @@ env PATH=/usr/bin:/bin \
 
 For a full integration test, install the hook per the instructions above, then ask Claude Code to create a plan. The hook fires automatically and the output appears in transcript mode (`Ctrl+R`).
 
+## Updating
+
+Users can update with `/plugin update plan-advisor@brooksmcmillin-plan-advisor`. Auto-update for third-party marketplaces is off by default but can be toggled on per-marketplace in `/plugin` > Marketplaces.
+
+**For contributors:** Always bump `version` in `.claude-plugin/plugin.json` when releasing changes. Claude Code uses this field to detect updates — code changes without a version bump won't reach existing users due to caching.
+
 ## Limitations
 
 - **Context % not reliably available**: The PostToolUse payload may not include current context window usage. The sub-agent works without it but can't factor it into recommendations.
